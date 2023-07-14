@@ -1,0 +1,10 @@
+body {
+  background-color: #fff;
+  color: rgba(0,0,0,0.8);
+  transition: color .5s, background-color .5s; 
+}
+.dark body {
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, .87);
+}
+
