@@ -34,7 +34,7 @@ const menus = [
     class="top-0 w-full backdrop-blur px-4 md:px-0"
     :class="[props.position]"
   >
-    <div class="container mx-auto h-24 flex items-center">
+    <div class="max-w-5xl mx-auto pr-6 h-24 flex items-center">
       <IconsLogo
         class="w-8 h-8 md:w-10 md:h-10 animate-spin hover:animate-none"
       />
