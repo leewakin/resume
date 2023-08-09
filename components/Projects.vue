@@ -1,20 +1,23 @@
 <script setup lang="ts">
+import imageHome from 'assets/images/project-home.png'
+import imageBuilder from 'assets/images/project-builder.png'
+import imageTrade from 'assets/images/project-trade.jpg'
 import type { ProjectProps } from './Project.vue'
 
 const projects: ProjectProps[] = [
   {
     name: '主场运营系统',
-    preview: 'assets/images/project-home.png',
+    preview: imageHome,
     url: 'https://builds.dataexpo.com.cn/',
   },
   {
     name: '施工证件自助办理终端',
-    preview: 'assets/images/project-builder.png',
+    preview: imageBuilder,
     url: 'https://szcec.dataexpo.com.cn/hz-print/',
   },
   {
     name: '中国-非洲经贸博览会',
-    preview: 'assets/images/project-trade.jpg',
+    preview: imageTrade,
     url: 'https://www.caetexpo.org.cn/',
   },
 ]
